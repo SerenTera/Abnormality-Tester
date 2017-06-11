@@ -7,4 +7,4 @@ Proxy module for abnormality testing purposes. Test any abnormalities by ids, th
 
 By the way, Spot the Big headed elin:
 
-![Screenshot] (https://raw.githubusercontent.com/SerenTera/Abnormality-Tester/master/LUL.png)
+![Screenshot](https://raw.githubusercontent.com/SerenTera/Abnormality-Tester/master/LUL.png "LUL")
