@@ -18,3 +18,5 @@ id					       description
 7000019-7000028				Alternating Self confidence-falsemodesty-selfconfidence-etc
 7000029-7000030				size changer, got bigger?
 7000031						  big head
+
+8000015						1 day exp coupon.
