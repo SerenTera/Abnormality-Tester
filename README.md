@@ -6,4 +6,5 @@ Proxy module for abnormality testing purposes. Test any abnormalities by ids, th
 - !abend (abnormality id)-end an abnormality.  eg !abend 7000001 causes the big head potion to end its effect.
 
 By the way, Spot the Big headed elin:
-![Screenshot] (/LUL.jpg?raw=true)
+
+![Screenshot] (https://raw.githubusercontent.com/SerenTera/Abnormality-Tester/master/LUL.png)
