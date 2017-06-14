@@ -48,7 +48,7 @@ module.exports=function tester(dispatch) {
 			gm: 0,
 			unk2: 0,
 			authorName: '',
-			message: '(DressUpFriends)'+msg
+			message: msg
 		});
 	};
 };
