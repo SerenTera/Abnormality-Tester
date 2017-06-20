@@ -1,6 +1,8 @@
 module.exports=function tester(dispatch) {
 	let duration=600000; //10min default time
-	let ids
+	let ids,
+		stack=1;
+	
 	
 	dispatch.hook('S_LOGIN', 1, event => {
 		playerid = event.cid;
@@ -19,6 +21,11 @@ module.exports=function tester(dispatch) {
 			message('Attempted to end abnormality ' + ids);
 			return false;
 		};
+		if(event.message.includes('!abstack')) {
+			stack=parseInt((event.message.replace(/[^0-9\.\-]/g, '')),10),
+			message('Abnomality stack' + stack);
+			return false;
+		};
 	});
 				
 	function abbegin(iden) {	
@@ -28,7 +35,7 @@ module.exports=function tester(dispatch) {
 			id:iden,
 			duration: duration,
 			unk:0,
-			stacks: 1,
+			stacks: stack,
 			unk2:0,
 		});
 	};
@@ -48,7 +55,7 @@ module.exports=function tester(dispatch) {
 			gm: 0,
 			unk2: 0,
 			authorName: '',
-			message: msg
+			message: '(DressUpFriends)'+msg
 		});
 	};
 };
